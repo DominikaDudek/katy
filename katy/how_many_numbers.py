@@ -1,4 +1,5 @@
-# Make a function that receives two arguments:
+# How many numbers III?
+#  Make a function that receives two arguments:
 #
 # the sum of digits value
 # the amount of desired digits for the numbers
@@ -9,6 +10,8 @@
 # 2 - the minimum number
 #
 # 3 - the maximum numberwith
+
+
 
 def find_all(sum_dig, digs):
     # your code here
