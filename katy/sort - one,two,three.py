@@ -13,7 +13,7 @@
 
 
 def sort_by_name(arr):
-    return
+
 
 
 sort_by_name([8, 8, 9, 9, 10, 10]) == [8, 8, 9, 9, 10, 10]
