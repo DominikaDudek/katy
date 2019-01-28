@@ -4,6 +4,7 @@
 def is_happy_number(n):
     visited = set()
     visited.add(n)
+
     def convert_to_string_and_return_square(integer):
         to_string = str(integer)
         accumulate = 0
@@ -17,9 +18,9 @@ def is_happy_number(n):
         a = convert_to_string_and_return_square(a)
         if a in visited:
             return False
-        visited.add(a)
         if a == 1:
             return True
+        visited.add(a)
 
 
 assert is_happy_number(7) is True
